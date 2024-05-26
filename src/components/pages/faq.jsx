@@ -6,7 +6,7 @@ export const Faq = () => {
         <p class="mt-4 text-sm leading-7 text-gray-500 font-regular">
         </p>
         <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight text-gray-900">
-            Frequently Asked <span class="text-indigo-600">Questions</span>
+            Frequently Asked <span class="text-red-500">Questions</span>
         </h3>
     </div>
 
@@ -18,7 +18,7 @@ export const Faq = () => {
         <div class="w-9/12">
             <div class="flex items-start mb-8">
                 <div
-                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-red-500 text-white border-4 border-white text-xl font-semibold">
                     <svg width="24px" fill="white" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <g data-name="Layer 2">
                             <g data-name="menu-arrow">
@@ -32,13 +32,13 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">What is Cybersecurity and why is it important?</h1>
-                    <p class="text-gray-500 text-sm">Cybersecurity is the discipline of defending computer networks, systems, and data against illegal access, cyberattacks, and data breaches. It is essential in the workplace to secure confidential data, keep operations running smoothly, and uphold stakeholder and customer confidence.</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">What is StrongSister and why is it important?</h1>
+                    <p class="text-gray-500 text-sm">StrongSister is an app designed to protect Burundian women from gender-based violence by providing tools for emergency calling, incident reporting, recording, safe contacts, and comprehensive resources. It is essential for ensuring women's safety, promoting timely help, and fostering a supportive community.</p>
                 </div>
             </div>
             <div class="flex items-start mb-8">
                 <div
-                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-red-500 text-white border-4 border-white text-xl font-semibold">
                     <svg width="24px" fill="white" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <g data-name="Layer 2">
                             <g data-name="menu-arrow">
@@ -52,13 +52,13 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">What are the Indicators of Cyberattacks at the workplace?</h1>
-                    <p class="text-gray-500 text-sm">Unusual network traffic patterns, unanticipated system malfunctions or slowdowns, and efforts by unauthorized users to gain unauthorized access to critical data or systems can all be signs of a workplace cyberattack.</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">What are the signs of gender-based violence?</h1>
+                    <p class="text-gray-500 text-sm">Signs can include physical injuries, changes in behavior, emotional distress, and reluctance to speak about certain topics. It's important to recognize these indicators to provide timely support and intervention.</p>
                 </div>
             </div>
             <div class="flex items-start mb-8">
                 <div
-                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-red-500 text-white border-4 border-white text-xl font-semibold">
                     <svg width="24px" fill="white" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <g data-name="Layer 2">
                             <g data-name="menu-arrow">
@@ -72,8 +72,8 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">What should I do when I notice a cyberattack?</h1>
-                    <p class="text-gray-500 text-sm">As soon as there's a cyberattack on your network, unplug from the internet and isolate the compromised systems.</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">What should I do if I experience or witness violence?</h1>
+                    <p class="text-gray-500 text-sm">If you experience or witness violence, use the StrongSister app to call for emergency help, report the incident, and notify your safe contacts. Record any evidence if it's safe to do so, and access the app's resources for further support.</p>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@ export const Faq = () => {
         <div class="w-9/12">
             <div class="flex items-start mb-8">
                 <div
-                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-red-500 text-white border-4 border-white text-xl font-semibold">
                     <svg width="24px" fill="white" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <g data-name="Layer 2">
                             <g data-name="menu-arrow">
@@ -101,14 +101,13 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">How can potential clients get in touch with your team to discuss their cybersecurity needs further? </h1>
-                    <p class="text-gray-500 text-sm">By booking an appointment,you can do this, by clicking on the button on 
-                    the Home Page</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">Do you need resources or have more questions?</h1>
+                    <p class="text-gray-500 text-sm">You can read the provided articles on our blog or use the customer support chat service. Our agent will respond to your queries.</p>
                 </div>
             </div>
             <div class="flex items-start mb-8">
                 <div
-                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-red-500 text-white border-4 border-white text-xl font-semibold">
                     <svg width="24px" fill="white" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <g data-name="Layer 2">
                             <g data-name="menu-arrow">
@@ -122,13 +121,13 @@ export const Faq = () => {
                     </svg>
                 </div>
                 <div class="text-md">
-                    <h1 class="text-gray-900 font-semibold mb-2">Do you have more Questions or need extra help?</h1>
-                    <p class="text-gray-500 text-sm">Use the customer support chat service, Our Agent will respond to your queries.</p>
+                    <h1 class="text-gray-900 font-semibold mb-2">Need extra help?</h1>
+                    <p class="text-gray-500 text-sm">Book an appointment with a psychologist or therapist through our app to get personalized support and guidance.</p>
                 </div>
             </div>
-            <div class="flex items-start mb-8">
+            {/* <div class="flex items-start mb-8">
                 <div
-                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-indigo-500 text-white border-4 border-white text-xl font-semibold">
+                    class="hidden sm:flex items-center justify-center p-3 mr-3 rounded-full bg-red-500 text-white border-4 border-white text-xl font-semibold">
                     <svg width="24px" fill="white" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <g data-name="Layer 2">
                             <g data-name="menu-arrow">
@@ -146,7 +145,7 @@ export const Faq = () => {
                     <p class="text-gray-500 text-sm">We respond to queries with 24 hours on week days,and issues received on weekends are addressed
                     in the early working hours on Monday.</p>
                 </div>
-            </div>
+            </div> */}
         </div>
 
     </div>

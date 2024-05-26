@@ -1,36 +1,17 @@
-import { useRef } from 'react';
-import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import { useEffect } from 'react';
 
-function App() {
-    const tawkMessengerRef = useRef();
+const useTawkTo = (propertyId, widgetId) => {
+    useEffect(() => {
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = `https://embed.tawk.to/${propertyId}/${widgetId}`;
+            s1.charset = "UTF-8";
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    }, [propertyId, widgetId]);
+};
 
-    const handleMinimize = () => {
-        tawkMessengerRef.current.minimize();
-    };
-
-    return (
-        <div className="App">
-            <button onClick={handleMinimize}> Minimize the Chat </button>
-
-            <TawkMessengerReact
-                propertyId="65f73745cc1376635adb91e2" 
-                widgetId="1hp6qvr59"
-                ref={tawkMessengerRef}/>
-        </div>
-    );
-}
-
-function App() {
-    const onLoad = () => {
-        console.log('onLoad works!');
-    };
-
-    return (
-        <div className="App">
-            <TawkMessengerReact
-                propertyId="65f73745cc1376635adb91e2"
-                widgetId="1hp6qvr59"
-                onLoad={onLoad}/>
-        </div>
-    );
-}
+export default useTawkTo;

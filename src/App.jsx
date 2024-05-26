@@ -29,8 +29,8 @@ export default function App() {
     <main className="grow overflow-hidden">
       <div className="App">
         <TawkMessengerReact
-          propertyId="65f73745cc1376635adb91e2"
-          widgetId="1hp6qvr59"
+          propertyId="66530ddb981b6c564774cbb1"
+          widgetId="1huq6s9ji"
         />
       </div>
       <PageIllustration />
