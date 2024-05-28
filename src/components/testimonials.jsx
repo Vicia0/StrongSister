@@ -14,7 +14,7 @@ export default function Testimonials() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
             {/* 1st testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800"
+              className="flex flex-col h-full p-6 bg-red-100"
               data-aos="fade-up"
             >
               <div>
@@ -27,7 +27,7 @@ export default function Testimonials() {
                     alt="Testimonial 01"
                   />
                   <svg
-                    className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
+                    className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-red-600"
                     viewBox="0 0 24 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -35,27 +35,24 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">
-                Engaging with Haven Consultancy revolutionized our approach to cybersecurity. 
-                Their professional guidance and customized remedies
-                not only shielded our company from online dangers but also increased our self-assurance in utilizing the digital world. 
-                I strongly encourage any business that is concerned about protecting its resources and brand to consider using their services.
+              <blockquote className="text-lg text-red-600 grow">
+              Engaging with StrongSister has been a game-changer for my personal safety and peace of mind. Their innovative app features like emergency calling and incident reporting have provided me with a sense of security I never had before. The comprehensive resources and support network available through StrongSister have empowered me to stand up for myself and seek help when needed. I highly recommend StrongSister to any woman looking for a reliable and supportive safety tool.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Kimberley Appiah</cite>{" "}
+                <cite className="text-red-600 not-italic">Kwizera Audrey</cite>{" "}
                 -{" "}
                 <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="text-red-400 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
                 >
-                  Web Developer
+                  Student
                 </a>
               </div>
             </div>
 
             {/* 2nd testimonial */}
             <div
-              className="flex flex-col h-full p-6 bg-gray-800"
+              className="flex flex-col h-full p-6 bg-red-100"
               data-aos="fade-up"
               data-aos-delay="200"
             >
@@ -63,13 +60,13 @@ export default function Testimonials() {
                 <div className="relative inline-flex flex-col mb-4">
                   <img
                     className="rounded-full"
-                    src={"/testimonial-02.jpg"}
+                    src={""}
                     width={48}
                     height={48}
                     alt="Testimonial 02"
                   />
                   <svg
-                    className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600"
+                    className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-red-600"
                     viewBox="0 0 24 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -77,26 +74,23 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">
-              One of the finest choices we ever made for our cybersecurity requirements was selecting Haven. 
-              Their proactive security strategy, together with their in-depth knowledge and individualized assistance,
-              provided us confidence that our systems and data were in capable hands. Without a doubt,
-              I would suggest Haven to other companies wishing to bolster their cyber defenses.
+              <blockquote className="text-lg text-red-600 grow">
+              Using StrongSister has transformed how I handle challenging situations. The ability to quickly record incidents and notify my safe contacts has made a significant difference in my daily life. The app's user-friendly interface and access to essential resources have made me feel more confident and protected. StrongSister's commitment to user privacy and security is truly commendable. I urge every woman to download StrongSister and take control of their safety and well-being.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">May Dallo</cite>{" "}
+                <cite className="text-red-600 not-italic">Iris Iteriteka</cite>{" "}
                 -{" "}
                 <a
-                  className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                  className="text-red-400 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
                 >
-                  Finance
+                  Sales agent
                 </a>
               </div>
             </div>
 
             {/* 3rd testimonial */}
-            <div
+            {/* <div
               className="flex flex-col h-full p-6 bg-gray-800"
               data-aos="fade-up"
               data-aos-delay="400"
@@ -135,7 +129,7 @@ export default function Testimonials() {
                   Entrepreneur
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -22,12 +22,12 @@ export const Navbar = () => {
           <Link to="/blog">Blog</Link>
         </li>
         <li>
-          {/* <div className="button-container">
+          <div className="button-container">
             <button
               type="button"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white bg-red-500 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
-              <a href="https://calendly.com/havencybersecurityconsulting/first-session" target="_blank">
+              <a href="https://calendly.com/polievicia12/30min" target="_blank">
                 Book Appointment
               </a>
               <svg
@@ -46,7 +46,7 @@ export const Navbar = () => {
                 />
               </svg>
             </button>
-          </div> */}
+          </div>
         </li>
       </ul>
       <svg
