@@ -74,7 +74,7 @@ export const Navbar = () => {
             e.target === e.currentTarget ? setShowMobile(false) : null
           }
         >
-          <div className="relative h-full w-full divide-y flex flex-col justify-between divide-gray-600 rounded-lg bg-gray-700 shadow">
+          <div className="relative h-full w-full divide-y flex flex-col justify-between divide-red-400 rounded-lg bg-red-500 shadow">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -86,19 +86,19 @@ export const Navbar = () => {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="lucide lucide-x absolute right-1 top-1 cursor-pointer text-gray-500"
+              className="lucide lucide-x absolute right-1 top-1 cursor-pointer text-red-100"
             >
               <path d="M18 6 6 18" />
               <path d="m6 6 12 12" />
             </svg>
             <ul
-              className="divide-y-[1px] divide-gray-500 px-4 py-2 pt-[50px] text-[20px] flex flex-col"
+              className="divide-y-[1px] divide-red-100 px-4 py-2 pt-[50px] text-[20px] flex flex-col"
               aria-labelledby="dropdownInformationButton"
             >
               <li>
                 <Link
                   href="/"
-                  className="block px-4 py-3 !text-gray-200 hover:bg-gray-600"
+                  className="block px-4 py-3 !text-gray-200 hover:bg-red-400"
                 >
                   Home
                 </Link>
@@ -106,7 +106,7 @@ export const Navbar = () => {
               <li>
                 <Link
                   href="/experts"
-                  className="block px-4 py-3 !text-gray-200 hover:bg-gray-600"
+                  className="block px-4 py-3 !text-gray-200 hover:bg-red-400"
                 >
                   Experts
                 </Link>
@@ -114,7 +114,7 @@ export const Navbar = () => {
               <li>
                 <Link
                   href="/faq"
-                  className="block px-4 py-3 !text-gray-200 hover:bg-gray-600"
+                  className="block px-4 py-3 !text-gray-200 hover:bg-red-400"
                 >
                   Faq
                 </Link>
@@ -122,7 +122,7 @@ export const Navbar = () => {
               <li>
                 <Link
                   href="/blog"
-                  className="block px-4 py-3 !text-gray-200 hover:bg-gray-600"
+                  className="block px-4 py-3 !text-gray-200 hover:bg-red-400"
                 >
                   Blog
                 </Link>
@@ -131,9 +131,9 @@ export const Navbar = () => {
             <div className="mb-auto h-max absolute bottom-4 w-auto right-4 left-4">
               <button
                 type="button"
-                className="text-white bg-blue-700 flex justify-center items-center w-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-white bg-red-500 flex justify-center items-center w-full hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
-                <a href="https://calendly.com/havencybersecurityconsulting/first-session"  target="_blank">
+                <a href="https://calendly.com/polievicia12/30min"  target="_blank">
                   Book Appointment
                 </a>
                 <svg
